@@ -1,11 +1,17 @@
 modal{
   font-family: 'GillSansInfantStd';
 }
-.modal-body{
-  background-image: url("../assets/images/1.jpg")
+button#envio.btn{
+  background-color: #DA291C;
+  color: white;
+  font-family: 'Rubik', sans-serif;
+  margin-right: 24%;
 }
+
 #img1{
-  width:341%;
+  width:127%;
+  height: 79vh;
+  margin-left: -23%;
 }
 
 label>#monto{
@@ -14,13 +20,12 @@ label>#monto{
 
 #open{
   width: 20%;
-  margin-left: 50%;
+  margin-left: 20%;
 }
 
 #inputName{
   width: 40%;
-  font-family: 'Gill Sans Infant Std';
-}
+ }
 #inputLast,
 #apellido{
   width: 40%;
@@ -31,7 +36,7 @@ label>#monto{
   margin-top: 7%;
   width: 139%;
   font-size: 32px;
-  
+  font-family: 'Rubik', sans-serif;
 }
 
 #pwd{
@@ -39,22 +44,39 @@ label>#monto{
 }
 #vali{
   width: 99%;
-  margin-top: 19%;
+  margin-top: 45%;
 }
-#thanks{
- font-family: "Trade Gothic LT","Helvetica Neue",Helvetica,Arial,sans-serif;
- font-size: 44px;
-}
+
 .modal-header{
   background-color: #DA291C;
   color: white;
-  font-family: 'TRADE GOTHIC LT COM';
+  font-family: 'Rubik', sans-serif;
+  font-size: 20px;
+}
+.seguros,
+#monto{
+  font-family: 'Rubik', sans-serif;
+  background-color: #F5F5F5;
+  color: #90979D;
+  font-size: 1rem;
+  border: 1px solid #e8e8e8;
+  padding: 2px;
+}
+.niñez{
+  float: left;
+}
+.modal-header1{
+  background-color: #DA291C;
+  color: white;
+  margin-left: -23%;
+  width: 127% !important;
+  height: 7vh;
+  font-family: 'Rubik', sans-serif;;
   font-size: 20px;
 }
 .panel-heading{
   margin-left: 3%;
 }
-
 
 /*!
  * Mobirise v4 theme (https://mobirise.com/)
